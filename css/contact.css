@@ -1,0 +1,73 @@
+body
+{
+       background-color: rgb(246, 246, 246);
+       margin: 0px;
+       box-sizing: border-box;
+}
+
+
+.contact-info
+{
+
+    display: flex;
+    gap: 30px;
+
+}
+
+.contact-info h3
+{
+color: black;
+
+}
+
+.contact-info p
+{
+color: rgb(101, 101, 101);
+
+}
+
+.contact-info svg
+{
+
+width: 48px;
+height: 48px;
+color: #2BAE7A;
+transition: 0.3s;
+
+}
+
+.contact-info svg:hover {
+    transform: scale(1.2);
+    color: #ffd700;
+}
+
+#contact-card
+{
+   background-color: #ede9e1;
+    width: 500px;
+    height: 542px;
+    padding: 50px;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.b6-img
+{
+    position: absolute;
+    right: 0px;
+    top: 70px;
+}
+
+.b7-img
+{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}

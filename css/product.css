@@ -1,0 +1,67 @@
+#mainGrid
+{
+display: grid;
+grid-template-columns: auto auto;
+grid-gap: 40px;
+}
+
+#gridone
+{
+margin-left: 100px;
+margin-top: 100px;
+}
+
+#gridone p
+{
+color: gray;
+}
+
+#gridone button
+{
+background-color: #2BAE7A;
+padding: 13px 20px;
+border: none;
+color: white;
+border-radius: 20px;
+}
+
+#innergrid
+{
+margin-top: 50px;
+margin-bottom: 50px;
+display: grid;
+grid-template-columns: auto auto;
+width: 500px;
+box-shadow: -2px 0px 4px rgb(207, 207, 207);
+background-color: #ede9e1;
+padding: 15px 25px;
+grid-gap: 15px;
+}
+
+.block
+{
+background-color: white;
+padding: 10px 25px;
+box-shadow: -5px 0px 4px rgb(207, 207, 207);
+}
+
+
+
+#gridtwo img
+{
+height: 500px;
+margin-top: 100px;
+margin-left: 50px;
+
+}
+
+.background-img
+{
+background-color: #ede9e1;
+width: 500px;
+height: 600px;
+padding: 15px 25px;
+margin-top: 100px;
+margin-bottom: 100px;
+border-radius: 20px;
+}

@@ -1,0 +1,337 @@
+body
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* start nav ************************** */
+
+
+
+/* start main ************************** */
+
+#main
+{
+display: grid;
+grid-template-columns: auto auto;
+grid-gap: 20px;
+margin-top: 50px;
+background-color: white;
+width: 100%;
+
+grid-area: main;
+}
+
+.gridone
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    color: #2BAE7A;
+}
+
+.gridone h2
+{
+font-size: 40px;
+
+}
+
+.gridone p
+{
+color: #D2B48C;  
+font-size: 20px;  
+}
+
+.btnShop
+{
+  background-color: #2BAE7A;
+  color: white;
+  border: none;
+  padding: 7px;
+  border-radius: 20px;
+  font-size: 16px;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+
+}
+
+.statical
+{
+display: flex;
+gap: 30px;
+
+}
+
+.statical h3
+{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.statical p
+{
+    color:#D2B48C;
+}
+
+
+.vertical-line {
+ border-left: 2px solid #968e8e;  /* Black line */
+ height: 100px;                /* Line height */
+ margin: 20px;    
+             
+}
+
+.gridtwo
+{
+    margin-left: 200px;
+}
+
+.why
+{
+
+    display: flex;
+    margin-right: 660px;
+
+}
+
+.why h2
+{
+    text-align: center;
+    margin-left: 510px;
+    margin-top: 80px;
+    color: #2BAE7A;
+}
+
+.natural-section {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.info {
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.info img {
+    width: 80px;
+    height: 60px;
+    margin-left: 120px;
+
+
+}
+
+.details
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.details h3
+{
+color: #2BAE7A;
+
+}
+
+.details p
+{
+color: #8F9779;
+}
+
+
+
+.logo-link {
+  display: inline-block;
+}
+
+.logo-link img {
+  display: block;
+}
+
+#header-review
+{
+
+font-weight: bold;
+font-size: 25px;
+margin-left: 520px;
+margin-top: 220px;
+
+}
+
+#header-review h2
+{
+    color: #2BAE7A;
+}
+
+#line
+{
+
+border-top:solid 5px #8F9779;
+width: 80px;
+position: relative;
+left: 200px;
+}
+
+#review
+{
+    margin-bottom: 200px;
+
+
+}
+
+#review-card
+{
+
+display: flex;
+gap: 30px;
+margin-left: 200px;
+margin-top: 100px;
+}
+
+.feedback-card
+{
+
+display: flex;
+width: 366px;
+height: 204px;
+gap: 30px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+transition: transform .35s ease, box-shadow .35s ease, filter .35s ease;
+}
+
+
+
+
+
+.feedback-card:hover
+{
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 10px 24px rgba(0,0,0,.15);
+
+    
+}
+
+
+
+.bg-profile
+{
+
+background-color: #8F9779;
+border-radius: 50%;
+width: 36px;
+height: 36px;
+position: relative;
+left: 13px;
+}
+
+.bg-profile svg
+{
+
+    width: 36px;
+    height: 36px;
+}
+
+.star
+{
+    color: #ffca28;
+}
+
+.part1-card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30PX;
+    padding: 25px;
+    background-color: #2BAE7A;
+    transition: 0.3s;
+   
+}
+
+
+.part1-card h6
+{
+    color: white;
+}
+
+.part2-card 
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    width: 256px;
+}
+
+.part2-card p
+{
+    font-style: italic;
+    color: #555;
+    line-height: 1.5;
+    font-size: 0.95rem;
+    overflow: hidden;
+}
+
+
+#arrow
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-arrow
+{
+    display: flex;
+    background-color: #2BAE7A;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 230px;
+    left: 90px;
+    cursor: pointer;
+
+}
+
+
+#left-arrow,#right-arrow{
+  transition: transform .2s ease, box-shadow .25s ease, filter .2s ease;
+}
+#left-arrow:hover,#right-arrow:hover{ transform: scale(1.06); }
+#left-arrow:active,#right-arrow:active{ transform: scale(.94); filter: brightness(.95); }
+
+
+#right-arrow
+{
+    display: flex;
+    background-color: #2BAE7A;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 230px;
+    right: 90px;
+    cursor: pointer;
+}
+
+.comment-icon svg
+{
+    color: white;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 15px;
+}

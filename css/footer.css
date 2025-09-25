@@ -1,0 +1,105 @@
+#footerGrid
+{
+
+ display: grid;
+ grid-template-areas: 
+
+ "footer footer footer";
+
+    
+}
+
+body
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+#footer
+{
+
+background-color:#8F9779;
+width: 100%;
+grid-area: footer;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap: 40px;
+height: 350px;
+
+
+}
+
+.icon-social
+{
+display: flex;
+color: white; 
+gap: 30px;
+margin-left: 60px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+.gridfooter1 h3
+{
+  font-family:cursive;
+  margin-left: 60px;
+  color: white;
+}
+
+.gridfooter1 p
+{
+color: white;
+margin-left: 60px;
+margin-top: 70px;
+font-size: 10px;
+
+}
+
+.gridfooter2 h3
+{
+  font-family:cursive;
+  margin-left: 60px;
+  color: white;
+}
+
+.gridfooter2
+{
+  margin-left: 200px;
+}
+
+
+
+.contact
+{
+  display: flex;
+  gap: 2px;
+  color: white;
+}
+
+.posi
+{
+  margin-top: 25px;
+  margin-left: 70px;
+}
+
+.email-icon
+{
+  display: flex;
+  gap: 2px;
+  color: white; 
+}
+
+.gps-icon
+{
+  display: flex;
+  gap: 2px;
+  color: white; 
+}
+
+.gridfooter3 img
+{
+margin-top: 80px;
+
+}

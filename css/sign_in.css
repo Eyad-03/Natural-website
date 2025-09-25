@@ -1,0 +1,182 @@
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ede9e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  padding: 20px;
+  gap: 40px;
+  position: relative;
+}
+
+.login-container {
+  flex: 1;
+  padding: 40px;
+  background: transparent;
+}
+
+.brand {
+  font-size: 24px;
+  color: #2BAE7A;
+  margin-bottom: 20px;
+}
+
+.brand span {
+  color: #000;
+  font-weight: bold;
+}
+
+.login-container h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.login-container p {
+  margin-bottom: 20px;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  background-color: #D2B48C;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  gap: 10px;
+  width: 100%;
+}
+
+.google-btn img {
+  width: 20px;
+}
+
+
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #D2B48C;
+  margin-top: 5px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.toggle-icon {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 20px;
+  font-size: 14px;
+}
+
+.options a
+{
+  text-decoration: none;
+  color: #000;
+}
+
+.login-btn {
+  width: 100%;
+  background-color: #2BAE7A;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.signup-text a {
+  color: #4b4bec;
+  text-decoration: none;
+}
+
+.illustration {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 00px;
+}
+
+.mock-illustration img {
+
+  max-width: 400px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.signup-top {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: #2BAE7A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0;
+  color: #a69e9e;
+  font-size: 14px;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #c8bebe;
+  margin: 0 10px;
+}
+
+.email-space
+{
+  margin: 30px 0px;
+}
